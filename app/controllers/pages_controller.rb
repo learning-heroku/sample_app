@@ -5,4 +5,8 @@ class PagesController < ApplicationController
   def contact
   end
 
+  def about
+	@title = "Ruby on Rails | About"
+  end
+
 end
